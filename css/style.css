@@ -1,3 +1,6 @@
+/* Base Font */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700&display=swap");
+
 :root {
   /*Base*/
   --color-first: #f25a70;
@@ -13,4 +16,8 @@
   --color-error: #ba1f33;
   --color-warning: #ceb02a;
   --color-success: #62c370;
+}
+
+html {
+  font-family: "Fira Code", monospace;
 }
