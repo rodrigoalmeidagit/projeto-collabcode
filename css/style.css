@@ -1,5 +1,5 @@
 /* Base Font */
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500;700&display=swap");
 
 /* Style Guide */
 :root {
@@ -20,5 +20,16 @@
 }
 
 html {
-  font-family: "Fira Code", monospace;
+  font-family: "Fira Code", monospace, Arial, Helvetica, sans-serif;
+}
+
+.main-header {
+  background: var(--color-second);
+}
+
+.main-nav a {
+  color: var(--color-third);
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 30px;
 }
