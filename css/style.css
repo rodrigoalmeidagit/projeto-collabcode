@@ -48,6 +48,7 @@ html {
 
 .main-nav {
   text-align: center;
+  background: #ccc;
 }
 
 .main-nav a {
