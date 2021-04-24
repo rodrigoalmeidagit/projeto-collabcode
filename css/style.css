@@ -37,41 +37,38 @@
 
 /* Global Style */
 html {
-  box-sizing: border-box;
   font-family: "Fira Code", monospace, Arial, Helvetica, sans-serif;
 }
 
 /* Header Section */
-
 .main-header {
+  display: flex;
+  padding: 10px 20px;
+  justify-content: space-between;
   background: var(--color-second);
-}
-
-.main-nav {
-  text-align: center;
+  border-bottom: 10px solid var(--color-black-first);
 }
 
 .main-nav a {
-  display: inline-flex;
-  align-items: center;
   font-size: 20px;
   font-weight: 500;
   margin-right: 30px;
+  align-items: center;
+  display: inline-flex;
   color: var(--color-third);
 }
 
 .btn-before::before {
   content: "";
-  margin-right: 10px;
   width: 10px;
   height: 10px;
-  background: var(--color-first);
   cursor: none;
+  margin-right: 10px;
+  background: var(--color-first);
 }
 
 .btn-cv {
-  height: 60px;
-  margin-left: 70px;
+  margin-right: 0;
   padding: 18px 20px;
   display: inline-block;
   background: var(--color-first);
