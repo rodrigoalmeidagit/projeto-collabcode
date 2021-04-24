@@ -57,6 +57,12 @@ html {
   color: var(--color-third);
 }
 
+.btn-nav:hover {
+  font-weight: 600;
+  transition-delay: 0.2s;
+  color: var(--color-black-second);
+}
+
 .btn-before::before {
   content: "";
   width: 10px;
@@ -71,12 +77,13 @@ html {
   padding: 18px 20px;
   display: inline-block;
   background: var(--color-first);
-  box-shadow: 5px 5px 0px #000000;
+  box-shadow: 5px 5px 0px var(--color-black-first);
 }
 
 .btn-cv:hover {
-  color: #000000;
-  transition: 3s;
-  background: #fff;
-  border-radius: 50px;
+  font-weight: 600;
+  transition-delay: 0.2s;
+  color: var(--color-first);
+  background: var(--color-third);
+  box-shadow: 5px 5px 0px var(--color-first);
 }
