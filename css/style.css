@@ -50,7 +50,6 @@ html {
 }
 
 .main-nav a {
-  font-size: 20px;
   font-weight: 500;
   margin-right: 30px;
   align-items: center;
@@ -73,4 +72,11 @@ html {
   display: inline-block;
   background: var(--color-first);
   box-shadow: 5px 5px 0px #000000;
+}
+
+.btn-cv:hover {
+  color: #000000;
+  transition: 3s;
+  background: #fff;
+  border-radius: 50px;
 }
