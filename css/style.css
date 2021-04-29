@@ -84,7 +84,7 @@ html {
 }
 
 .btn-cv:hover {
-  font-weight: 600;
+  font-weight: 500;
   transition-delay: 0.2s;
   color: var(--color-first);
   background: var(--color-third);
