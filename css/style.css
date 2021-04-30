@@ -38,12 +38,12 @@
   --color-success: #62c370;
 }
 
-/* Global Style */
+/* 3- Global Style */
 html {
   font-family: "Fira Code", monospace, Arial, Helvetica, sans-serif;
 }
 
-/* Header Section */
+/* 4- Header Section */
 .main-header {
   display: flex;
   padding: 10px 20px;
@@ -89,4 +89,33 @@ html {
   color: var(--color-first);
   background: var(--color-third);
   box-shadow: 5px 5px 0px var(--color-first);
+}
+
+/* 5- Banner Section */
+
+.btn-cv-banner {
+  width: 170px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  padding: 18px 20px;
+  display: inline-block;
+  color: var(--color-third);
+  background: var(--color-first);
+  box-shadow: 5px 5px 0px var(--color-black-first);
+}
+
+.btn-contact {
+  width: 170px;
+  height: 60px;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  padding: 18px 20px;
+  display: inline-block;
+  color: var(--color-third);
+  background: var(--color-first);
+  box-shadow: 5px 5px 0px var(--color-black-first);
 }
