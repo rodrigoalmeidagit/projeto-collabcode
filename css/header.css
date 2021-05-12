@@ -12,6 +12,7 @@
   margin-right: 30px;
   align-items: center;
   display: inline-flex;
+  font-size: 1.25em;
   color: var(--color-third);
 }
 
