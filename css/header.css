@@ -21,7 +21,7 @@
   color: var(--color-black-second);
 }
 
-.btn-before::before {
+.btn-nav::before {
   content: "";
   width: 10px;
   height: 10px;
