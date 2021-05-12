@@ -45,9 +45,9 @@ html {
 
 /* 5- Banner Section */
 .title {
+  text-align: center;
   padding: 42px 44px;
   display: inline-block;
-  text-align: center;
   background: var(--color-black-second);
   box-shadow: 10px 10px 0 var(--color-black-first);
   font-family: "Press Start 2P", sans-serif, cursive;
@@ -64,4 +64,9 @@ html {
   font-size: 1.875em;
   color: var(--color-third);
   text-shadow: 4px 4px 0px var(--color-black-first);
+}
+
+.btn-banner {
+  width: 170px;
+  height: 60px;
 }

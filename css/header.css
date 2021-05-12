@@ -9,10 +9,10 @@
 
 .btn-nav {
   font-weight: 500;
+  font-size: 1.25em;
   margin-right: 30px;
   align-items: center;
   display: inline-flex;
-  font-size: 1.25em;
   color: var(--color-third);
 }
 
@@ -32,8 +32,8 @@
 }
 
 .btn-cv {
-  font-size: 1.25em;
   margin-right: 0;
+  font-size: 1.25em;
   padding: 18px 20px;
   display: inline-block;
   color: var(--color-third);
