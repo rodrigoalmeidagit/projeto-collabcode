@@ -36,15 +36,13 @@
   font-size: 1.25em;
   padding: 18px 20px;
   display: inline-block;
+  transition: transform 100ms linear opacity 200ms ease-in-out;
   color: var(--color-third);
   background: var(--color-first);
   box-shadow: 5px 5px 0px var(--color-black-first);
 }
 
 .btn-cv:hover {
-  font-weight: 500;
-  transition-delay: 0.2s;
-  color: var(--color-first);
-  background: var(--color-third);
-  box-shadow: 5px 5px 0px var(--color-first);
+  transform: scale(1.08);
+  opacity: 0.7;
 }
