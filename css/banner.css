@@ -1,9 +1,10 @@
 /* 5- Banner Section */
 .banner-section {
   height: 800px;
-  background-size: 100%;
+  /* background-size: 100%; */
   background-repeat: no-repeat;
   background-image: url(../img/newfoto.png);
+  border-bottom: 10px solid var(--color-black-first);
 }
 
 .container {
