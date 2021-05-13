@@ -42,3 +42,8 @@
 html {
   font-family: "Fira Code", monospace, Arial, Helvetica, sans-serif;
 }
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+}
