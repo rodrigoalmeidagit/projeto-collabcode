@@ -51,6 +51,10 @@ html {
   background-size: 100%;
 }
 
+.container {
+  width: 630px;
+}
+
 .title {
   text-align: center;
   padding: 42px 44px;
@@ -73,7 +77,16 @@ html {
   text-shadow: 4px 4px 0px var(--color-black-first);
 }
 
+.container .banner-container {
+  display: flex;
+  justify-content: space-around;
+}
+
 .btn-banner {
-  width: 170px;
-  height: 60px;
+  font-size: 1.25em;
+  margin-top: 20px;
+  padding: 18px 20px;
+  color: var(--color-third);
+  background: var(--color-first);
+  box-shadow: 5px 5px 0px var(--color-black-first);
 }
