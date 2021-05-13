@@ -1,0 +1,47 @@
+/* 5- Banner Section */
+.banner-section {
+  height: 800px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url(../img/newfoto.png);
+}
+
+.container {
+  width: 630px;
+}
+
+.title {
+  text-align: center;
+  padding: 42px 44px;
+  display: inline-block;
+  background: var(--color-black-second);
+  box-shadow: 10px 10px 0 var(--color-black-first);
+  font-family: "Press Start 2P", sans-serif, cursive;
+}
+
+.title h2 {
+  font-size: 2.5em;
+  padding-bottom: 28px;
+  color: var(--color-first);
+  text-shadow: 4px 4px 0px var(--color-black-first);
+}
+
+.title p {
+  font-size: 1.875em;
+  color: var(--color-third);
+  text-shadow: 4px 4px 0px var(--color-black-first);
+}
+
+.container .banner-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn-banner {
+  font-size: 1.25em;
+  margin-top: 38px;
+  padding: 18px 20px;
+  color: var(--color-third);
+  background: var(--color-first);
+  box-shadow: 5px 5px 0px var(--color-black-first);
+}
