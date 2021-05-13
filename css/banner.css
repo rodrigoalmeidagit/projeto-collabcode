@@ -1,14 +1,12 @@
 /* 5- Banner Section */
 .banner-section {
   height: 800px;
-  /* background-size: 100%; */
+  padding-top: 115px;
+  padding-left: 90px;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-image: url(../img/newfoto.png);
   border-bottom: 10px solid var(--color-black-first);
-}
-
-.container {
-  width: 630px;
 }
 
 .title {
@@ -34,14 +32,17 @@
 }
 
 .container .banner-container {
+  width: 630px;
   display: flex;
   justify-content: space-around;
 }
 
 .btn-banner {
-  font-size: 1.25em;
+  width: 190px;
   margin-top: 38px;
+  font-size: 1.25em;
   padding: 18px 20px;
+  text-align: center;
   color: var(--color-third);
   background: var(--color-first);
   box-shadow: 5px 5px 0px var(--color-black-first);
