@@ -44,6 +44,13 @@ html {
 }
 
 /* 5- Banner Section */
+.banner-section {
+  height: 800px;
+  background-image: url(../img/newfoto.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
 .title {
   text-align: center;
   padding: 42px 44px;
