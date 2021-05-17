@@ -2,6 +2,7 @@
 .skills-section {
   height: 730px;
   background: var(--color-first);
+  border-bottom: 10px solid var(--color-second);
 }
 
 .skills-container {
