@@ -22,6 +22,9 @@
 /* 1- Base Font */
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500;700&family=Press+Start+2P&display=swap");
 
+/* font-family: "Fira Code", monospace, Arial, Helvetica, sans-serif; */
+/* font-family: "Press Start 2P", monospace, Arial, Helvetica, sans-serif; */
+
 /* 2- Style Guide */
 :root {
   /* Base */
