@@ -15,7 +15,7 @@
   display: inline-block;
   background: var(--color-black-second);
   box-shadow: 10px 10px 0 var(--color-black-first);
-  font-family: "Press Start 2P", sans-serif, cursive;
+  font-family: "Press Start 2P", monospace, Arial, Helvetica, sans-serif;
 }
 
 .title h2 {
