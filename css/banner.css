@@ -9,28 +9,6 @@
   border-bottom: 10px solid var(--color-black-first);
 }
 
-.title {
-  text-align: center;
-  padding: 42px 44px;
-  display: inline-block;
-  background: var(--color-black-second);
-  box-shadow: 10px 10px 0 var(--color-black-first);
-  font-family: "Press Start 2P", monospace, Arial, Helvetica, sans-serif;
-}
-
-.title h2 {
-  font-size: 2.5em;
-  padding-bottom: 28px;
-  color: var(--color-first);
-  text-shadow: 4px 4px 0px var(--color-black-first);
-}
-
-.title p {
-  font-size: 1.875em;
-  color: var(--color-third);
-  text-shadow: 4px 4px 0px var(--color-black-first);
-}
-
 .container .banner-container {
   width: 630px;
   display: flex;
