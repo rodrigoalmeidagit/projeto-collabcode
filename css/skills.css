@@ -14,14 +14,6 @@
   justify-content: center;
 }
 
-.skills-title {
-  font-size: 2.5em;
-  padding-top: 50px;
-  text-align: center;
-  color: var(--color-third);
-  font-family: "Press Start 2P", monospace, Arial, Helvetica, sans-serif;
-}
-
 .skills-items {
   width: 430px;
   height: 90px;
