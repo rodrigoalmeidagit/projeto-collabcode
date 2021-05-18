@@ -1,6 +1,7 @@
 /* 6- Skills Section */
 .skills-section {
   height: 730px;
+  padding: 50px 0 100px 0;
   background: var(--color-first);
   border-bottom: 10px solid var(--color-second);
 }
