@@ -12,12 +12,13 @@
   display: flex;
   flex-wrap: wrap;
   margin: 60px auto;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .skills-items {
   width: 430px;
   height: 90px;
+  flex: 1 1 250px;
   display: flex;
 }
 
@@ -30,4 +31,29 @@
   width: 320px;
   height: 40px;
   border: 1px solid black;
+}
+
+.progress {
+  width: 320px;
+  height: 40px;
+  border: 5px solid black;
+}
+
+.progress::-moz-progress-bar {
+  background: var(--color-second);
+}
+
+.progress-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 26px;
+}
+
+.progress-container spam {
+  padding-bottom: 16px;
+  font-size: 1.5625em;
+  line-height: 25px;
+  color: white;
+  margin-top: 5px;
+  font-family: "Press Start 2P", monospace, Arial, Helvetica, sans-serif;
 }
