@@ -45,6 +45,7 @@
 
 .progress-container {
   display: flex;
+  margin-left: 26px;
   flex-direction: column;
   margin-left: 26px;
 }
