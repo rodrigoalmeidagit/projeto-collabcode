@@ -12,21 +12,32 @@
   display: flex;
   flex-wrap: wrap;
   margin: 60px auto;
-  justify-content: space-evenly;
 }
 
 .skills-items {
   width: 430px;
   height: 90px;
-  flex: 1 1 250px;
   display: flex;
+  flex: 1 1 250px;
+}
+
+.skills-items:nth-of-type(1n + 1) {
+  justify-content: right;
+}
+
+.skills-items:nth-of-type(2n + 1) {
+  justify-content: left;
 }
 
 .skills-items__img {
   width: 80px;
   height: 90px;
+  display: flex;
 }
 
+.skills-items__img img {
+  align-self: center;
+}
 .skills-bar {
   width: 320px;
   height: 40px;
@@ -47,7 +58,6 @@
   display: flex;
   margin-left: 26px;
   flex-direction: column;
-  margin-left: 26px;
 }
 
 .progress-container spam {
