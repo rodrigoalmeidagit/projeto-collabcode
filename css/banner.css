@@ -3,7 +3,7 @@
   height: 800px;
   padding-top: 115px;
   padding-left: 90px;
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-image: url(../img/newfoto.png);
   border-bottom: 10px solid var(--color-black-first);
