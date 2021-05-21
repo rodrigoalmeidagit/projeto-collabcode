@@ -17,6 +17,7 @@
 
 .btn-banner {
   width: 190px;
+  cursor: pointer;
   margin-top: 38px;
   font-size: 1.25em;
   padding: 18px 20px;
