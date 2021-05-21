@@ -1,0 +1,11 @@
+.project-section {
+  padding-top: 50px;
+  height: 520px;
+  background-color: var(--color-black-first);
+}
+
+.project-items {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
