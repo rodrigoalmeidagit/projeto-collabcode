@@ -50,7 +50,8 @@
   border: 5px solid black;
 }
 
-.progress::-moz-progress-bar {
+.progress::-moz-progress-bar,
+.progress::-webkit-progress-bar {
   background: var(--color-second);
 }
 
