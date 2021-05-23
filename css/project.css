@@ -1,11 +1,25 @@
 .project-section {
-  padding-top: 50px;
   height: 520px;
+  padding-top: 50px;
   background-color: var(--color-black-first);
+  border-bottom: 10px solid var(--color-first);
 }
 
 .project-items {
-  padding-top: 50px;
+  width: 1152px;
+  margin: 0 auto;
   display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
   justify-content: space-around;
+}
+
+.project-items img {
+  width: 280px;
+}
+
+.project-items img:nth-child(3) {
+  width: 270px;
+  height: 270px;
+  box-shadow: 10px 10px 0px #ffffff;
 }
