@@ -2,3 +2,39 @@
   height: 862px;
   background-color: var(--color-black-second);
 }
+
+.title-section.contact-title {
+  padding: 50px 0px;
+}
+
+.contact-form {
+  width: 1360px;
+  height: 765px;
+  display: flex;
+  margin: 0 auto;
+  font-weight: 300;
+  font-size: 1.875em;
+  flex-direction: column;
+  color: var(--color-third);
+}
+
+.contact-form input,
+textarea {
+  border: 5px solid var(--color-black-first);
+}
+
+.contact-form input {
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.contact-form button {
+  border: none;
+  cursor: pointer;
+  margin-top: 40px;
+  padding: 10px 0px;
+  font-size: 1.875rem;
+  color: var(--color-third);
+  background: var(--color-first);
+  box-shadow: 5px 5px 0px var(--color-black-first);
+}
