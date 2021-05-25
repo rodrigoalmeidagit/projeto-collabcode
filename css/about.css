@@ -1,0 +1,5 @@
+.about-section {
+  height: 793px;
+  background: var(--color-second);
+  border-bottom: 10px solid var(--color-black-first);
+}
