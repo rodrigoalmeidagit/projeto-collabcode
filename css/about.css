@@ -3,3 +3,11 @@
   background: var(--color-second);
   border-bottom: 10px solid var(--color-black-first);
 }
+
+.title-section.about-title {
+  padding: 50px 0px 66px 0px;
+}
+
+.about-section img {
+  height: 215px;
+}
