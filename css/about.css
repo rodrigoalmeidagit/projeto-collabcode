@@ -1,5 +1,5 @@
 .about-section {
-  height: 793px;
+  height: 800px;
   background: var(--color-second);
   border-bottom: 10px solid var(--color-black-first);
 }
@@ -10,4 +10,16 @@
 
 .about-section img {
   height: 215px;
+  margin-bottom: 50px;
+}
+
+.about-section p {
+  width: 1280px;
+  display: block;
+  text-align: left;
+  font-weight: 300;
+  line-height: 39px;
+  font-size: 1.875em;
+  margin: 0 auto 50px auto;
+  color: var(--color-third);
 }
