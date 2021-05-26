@@ -38,3 +38,8 @@ textarea {
   background: var(--color-first);
   box-shadow: 5px 5px 0px var(--color-black-first);
 }
+
+.contact-form button:hover {
+  color: var(--color-first);
+  background: var(--color-third);
+}
